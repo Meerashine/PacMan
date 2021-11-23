@@ -33,7 +33,7 @@ class Game(object):
         self.menu = Menu(("Start","About","Exit"),font_color = WHITE,font_size=60)
         #self.title = Menu(("AIDS-MAN"),font_color = WHITE,font_size=90)
         # Create the player
-        self.player = Player(32,128,r".\player\player.png")
+        self.player = Player(32,128,r".\images\player.png")
         ####
         #self.screen = pygame.image.load(r"C:\Users\mejoe\Downloads\Pacman-In-Python-Code\Pacman In Python Code\PacMan-Python-master\PacMan\player.png")
         # Create the blocks that will set the paths where the player can go
@@ -66,8 +66,8 @@ class Game(object):
 
         # Load the sound effects
         
-        self.game_over_sound = pygame.mixer.Sound(r".\walk\game_over_sound.wav")
-        self.pacman_sound = pygame.mixer.Sound(r".\walk\pacman_sound.wav")
+        self.game_over_sound = pygame.mixer.Sound(r".\images\game_over_sound.wav")
+        self.pacman_sound = pygame.mixer.Sound(r".\images\pacman_sound.wav")
 
 
     def process_events(self):

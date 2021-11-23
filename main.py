@@ -55,7 +55,7 @@ def main():
     # Used to manage how fast the screen updates
     clock = pygame.time.Clock()
     #########
-    bg = pygame.image.load(r".\Background\Unticccctled-1.jpg")
+    bg = pygame.image.load(r".\images\Unticccctled-1.jpg")
     #game_intro(screen,cloc
     screen.fill(black)
     largeText = pygame.font.SysFont('Helvetica',100)
